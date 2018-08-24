@@ -25,6 +25,7 @@
 
 ZOOBINDIR="${ZOOBINDIR:-/usr/bin}"
 ZOOKEEPER_PREFIX="${ZOOBINDIR}/.."
+#add $JAVA_HOME and $CLASSPATH
 export JAVA_HOME=/data/jdk
 export CLASSPATH=.$CLASSPATH:$JAVA_HOME/lib:$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar
 if [ "x$ZOOCFGDIR" = "x" ]
